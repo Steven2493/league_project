@@ -1,0 +1,8 @@
+<div class="container row index-champs">
+<ul>
+<% @champions.each do |champion| %>
+  <li class="col s2 white-text"><a href="/champions/<%=champion.id%>"><img src="http://ddragon.leagueoflegends.com/cdn/6.24.1/img/champion/<%= champion.name %>.png" alt="">
+</a><%= champion.name %></li>
+<% end %>
+</ul>
+</div>

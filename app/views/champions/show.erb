@@ -1,0 +1,16 @@
+<body style="background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/<%=@champion.name%>_1.jpg');">
+  <div class="container">
+    <h1 class="white-text">Champion Details</h2>
+    <div class="row img-splash">
+      <div class="col s4">
+        <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/<%=@champion.name%>_0.jpg" alt="">
+      </div>
+      <div class="col s6 white-text">
+        <h3><%= @champion.name %></h3>
+        <h4><%= @champion.title %></h4>
+        <p><%=  @champion.lore%></p>
+        <p><%= @champion.stats %></p>
+      </div>
+    </div>
+  </div>
+</body>
