@@ -13,4 +13,19 @@ body {
 
 .index-champs{
   padding-top: 30px;
+  background: rgba(0,0,0,.75);
+}
+
+li.col.s2.white-text a {
+    display: block;
+}
+
+a.brand-logo img {
+    width: 80%;
+}
+
+.row.img-splash {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

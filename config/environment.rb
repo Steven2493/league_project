@@ -22,7 +22,7 @@ require 'erb'
 require 'json'
 require 'open-uri'
 require 'pry'
-
+require 'bcrypt'
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
