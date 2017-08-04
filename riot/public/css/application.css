@@ -1,0 +1,31 @@
+body {
+    background: no-repeat #000;
+    font-family: Lato,sans-serif;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 100;
+}
+
+.img-splash{
+  background: rgba(0,0,0,.75);
+}
+
+.index-champs{
+  padding-top: 30px;
+  background: rgba(0,0,0,.75);
+}
+
+li.col.s2.white-text a {
+    display: block;
+}
+
+a.brand-logo img {
+    width: 80%;
+}
+
+.row.img-splash {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
